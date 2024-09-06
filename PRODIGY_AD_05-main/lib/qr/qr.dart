@@ -20,12 +20,12 @@ class _qrscannerState extends State<qrscanner> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+          backgroundColor: const Color.fromARGB(255, 132, 132, 132),
           title: const Text(
               style: TextStyle(color: Colors.white), "QR Code Scanner"),
           elevation: 0,
         ),
-        backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+          backgroundColor: const Color.fromARGB(255, 132, 132, 132),
         body: ClipRRect(
           borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(20), topRight: Radius.circular(20)),
